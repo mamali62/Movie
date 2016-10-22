@@ -1,6 +1,6 @@
 import fresh_tomatoes
 import media
-
+#Here are my Movie's instances
 salt=media.Movie("Salt", "When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt's oath is put to the test.",
                       "http://static.rogerebert.com/uploads/movie/movie_poster/salt-2010/large_nSYf9926SJlIZ7DIkiKL8NxaWZ4.jpg",
                       "https://www.youtube.com/watch?v=QZ40WlshNwU")
@@ -31,4 +31,4 @@ sully=media.Movie("Sully",
 					"http://www.sullysullenberger.com/wp-content/uploads/2016/06/sully-poster-sized.jpg",
 					"https://www.youtube.com/watch?v=mjKEXxO2KNE")
 movies=[salt,civil_war,terminator,ice_ages,deep_water,sully]
-fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)#fresh_tomatoes will be run
